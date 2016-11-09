@@ -1,0 +1,8 @@
+UnitBlueprint {
+BlueprintId="dal0310",Merge=true,
+Weapon = {
+{
+MuzzleVelocity = 40,
+},
+},
+}

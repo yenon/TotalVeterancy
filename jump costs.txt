@@ -1,0 +1,156 @@
+Masscost for different types of jumping in multiplayer mode:
+(unit level-1) *250 *sqrt(height*hops)
+height default = 1, low height(shift) = 0.5
+
+Range is calculated including height difference.
+
+
+
+A single jump at standard height, range limited to 70
+
+*Masscost at level 6:  1250
+Masscost at level 11:  2500
+Masscost at level 16:  3750
+Masscost at level 21:  5000
+Masscost at level 26:  6250
+**Masscost at level 31:  7500
+Masscost at level 36:  8750
+Masscost at level 41:  10000
+Masscost at level 46:  11250
+Masscost at level 51:  12500
+Masscost at level 56:  13750
+Masscost at level 61:  15000
+Masscost at level 66:  16250
+Masscost at level 71:  17500
+Masscost at level 76:  18750
+Masscost at level 81:  20000
+Masscost at level 86:  21250
+Masscost at level 91:  22500
+Masscost at level 96:  23750
+Masscost at level 101:  25000
+
+
+Isis traversal cost: 
+(for a diagonal long range jump, 18 hops)
+
+
+*Masscost at level 6:  5304
+Masscost at level 11:  10607
+Masscost at level 16:  15910
+Masscost at level 21:  21214
+Masscost at level 26:  26517
+**Masscost at level 31:  31820
+Masscost at level 36:  37124
+Masscost at level 41:  42427
+Masscost at level 46:  47730
+Masscost at level 51:  53034
+Masscost at level 56:  58337
+Masscost at level 61:  63640
+Masscost at level 66:  68943
+Masscost at level 71:  74247
+Masscost at level 76:  79550
+Masscost at level 81:  84853
+Masscost at level 86:  90157
+Masscost at level 91:  95460
+Masscost at level 96:  100763
+Masscost at level 101:  106067
+
+Seton's Clutch(20x20) traversal costs:
+(for a diagonal long range jump, 49 hops)
+
+*Masscost at level 6:  8750
+Masscost at level 11:  17500
+Masscost at level 16:  26250
+Masscost at level 21:  35000
+Masscost at level 26:  43750
+**Masscost at level 31:  52500
+Masscost at level 36:  61250
+Masscost at level 41:  70000
+Masscost at level 46:  78750
+Masscost at level 51:  87500
+Masscost at level 56:  96250
+Masscost at level 61:  105000
+Masscost at level 66:  113750
+Masscost at level 71:  122500
+Masscost at level 76:  131250
+Masscost at level 81:  140000
+Masscost at level 86:  148750
+Masscost at level 91:  157500
+Masscost at level 96:  166250
+Masscost at level 101:  175000
+
+Alpha 7(40x40)  traversal costs:
+(for a diagonal long range jump, 96 hops)
+
+*Masscost at level 6:  12248
+Masscost at level 11:  24495
+Masscost at level 16:  36743
+Masscost at level 21:  48990
+Masscost at level 26:  61238
+**Masscost at level 31:  73485
+Masscost at level 36:  85733
+Masscost at level 41:  97980
+Masscost at level 46:  110228
+Masscost at level 51:  122475
+Masscost at level 56:  134722
+Masscost at level 61:  146970
+Masscost at level 66:  159217
+Masscost at level 71:  171465
+Masscost at level 76:  183712
+Masscost at level 81:  195960
+Masscost at level 86:  208207
+Masscost at level 91:  220455
+Masscost at level 96:  232702
+Masscost at level 101:  244949
+
+Betrayal Ocean(81x81)  traversal costs:
+(for a diagonal long range jump, 196 hops)
+
+*Masscost at level 6:  17500
+Masscost at level 11:  35000
+Masscost at level 16:  52500
+Masscost at level 21:  70000
+Masscost at level 26:  87500
+**Masscost at level 31:  105000
+Masscost at level 36:  122500
+Masscost at level 41:  140000
+Masscost at level 46:  157500
+Masscost at level 51:  175000
+Masscost at level 56:  192500
+Masscost at level 61:  210000
+Masscost at level 66:  227500
+Masscost at level 71:  245000
+Masscost at level 76:  262500
+Masscost at level 81:  280000
+Masscost at level 86:  297500
+Masscost at level 91:  315000
+Masscost at level 96:  332500
+Masscost at level 101:  350000
+
+Bulletstorm duration/costs:
+
+Bulletstorm duration at level 6:  12 seconds; Masscost: 9683
+Bulletstorm duration at level 11:  13 seconds; Masscost: 19365
+Bulletstorm duration at level 16:  13 seconds; Masscost: 29048
+Bulletstorm duration at level 21:  14 seconds; Masscost: 38730
+Bulletstorm duration at level 26:  15 seconds; Masscost: 48413
+Bulletstorm duration at level 31:  15 seconds; Masscost: 58095
+Bulletstorm duration at level 36:  16 seconds; Masscost: 67778
+Bulletstorm duration at level 41:  16 seconds; Masscost: 77460
+Bulletstorm duration at level 46:  17 seconds; Masscost: 87143
+Bulletstorm duration at level 51:  17 seconds; Masscost: 96825
+Bulletstorm duration at level 56:  18 seconds; Masscost: 106508
+Bulletstorm duration at level 61:  18 seconds; Masscost: 116190
+Bulletstorm duration at level 66:  19 seconds; Masscost: 125872
+Bulletstorm duration at level 71:  19 seconds; Masscost: 135555
+Bulletstorm duration at level 76:  20 seconds; Masscost: 145237
+Bulletstorm duration at level 81:  20 seconds; Masscost: 154920
+Bulletstorm duration at level 86:  21 seconds; Masscost: 164602
+Bulletstorm duration at level 91:  22 seconds; Masscost: 174285
+Bulletstorm duration at level 96:  22 seconds; Masscost: 183967
+Bulletstorm duration at level 101:  23 seconds; Masscost: 193650
+
+
+aterisks denominate the availability according to unit type
+* = Support Commander
+**= ACU 

@@ -1,0 +1,8 @@
+UnitBlueprint {
+BlueprintId="ual0303",Merge=true,
+Weapon = {
+{
+MuzzleVelocity = 40,
+},
+},
+}

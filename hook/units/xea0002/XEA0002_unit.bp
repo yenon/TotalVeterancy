@@ -1,0 +1,6 @@
+UnitBlueprint {
+BlueprintId="xea0002",Merge=true,
+Economy = {
+	xpBaseValue = 5000
+},
+}

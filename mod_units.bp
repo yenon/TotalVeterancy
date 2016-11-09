@@ -1,0 +1,578 @@
+UnitBlueprint {
+BlueprintId="ual0001",
+Buffs = {
+},
+Weapon = {
+{
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+EnergyChargeForFirstShot = true,
+EnergyDrainPerSecond = 5000,
+EnergyRequired = 5000,
+},
+{
+Buffs = {
+{
+Add = {
+OnFire = true,
+},
+BuffType = 'STUN',
+Duration = 3.5,
+Radius = 22,
+TargetAllow = 'ALLUNITS',
+TargetDisallow = 'EXPERIMENTAL,COMMAND',
+},
+},
+EnergyDrainPerSecond = 10000,
+EnergyRequired = 10000,
+},
+{
+DamageType = 'Deathnuke',
+NukeInnerRingDamage = 45000,
+NukeOuterRingDamage = 5000,
+},
+},
+Enhancements = {
+AdvancedEngineering = {
+NewBuildRate = 20,
+NewHealth = 3000,
+NewRegenRate = 20,
+},
+CrysalisBeam = {
+NewMaxRadius = 15,
+},
+EnhancedSensors = {
+NewOmniRadius = 74,
+NewVisionRadius = 24,
+},
+HeatSink = {
+BuildCostEnergy = 315000,
+BuildCostMass = 5000,
+BuildTime = 3500,
+NewRateOfFire = 3,
+},
+ResourceAllocation = {
+ProductionPerSecondEnergy = 2700,
+ProductionPerSecondMass = 18,
+},
+ResourceAllocationAdvanced = {
+ProductionPerSecondEnergy = 5400,
+ProductionPerSecondMass = 36,
+},
+T3Engineering = {
+NewBuildRate = 80,
+NewRegenRate = 40,
+},
+ChronoDampener = {
+ShowBones = {
+'Left_Upgrade',
+},
+Slot = 'LCH',
+MaintenanceConsumptionPerSecondEnergy = 10000,
+BuildCostEnergy = 450000,
+BuildCostMass = 2500,
+BuildTime = 2500,
+},
+ChronoDampenerRemove = {
+HideBones = {
+'Left_Upgrade',
+},
+Slot = 'LCH',
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="url0001",
+Buffs = {
+},
+Weapon = {
+{
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+EnergyChargeForFirstShot = true,
+EnergyDrainPerSecond = 5000,
+EnergyRequired = 5000,
+},
+{
+DamageType = 'Deathnuke',
+NukeInnerRingDamage = 45000,
+NukeOuterRingDamage = 5000,
+},
+{
+Damage = 200,
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+},
+Enhancements = {
+AdvancedEngineering = {
+NewBuildRate = 20,
+NewHealth = 3500,
+NewRegenRate = 20,
+},
+CloakingGenerator = {
+BuildCostEnergy = 1100000,
+BuildCostMass = 10500,
+BuildTime = 6000,
+NewHealth = 25000,
+},
+CoolingUpgrade = {
+NewMaxRadius = 8,
+NewRateOfFire = 1,
+},
+MicrowaveLaserGenerator = {
+BuildCostEnergy = 500000,
+BuildCostMass = 6000,
+BuildTime = 4000,
+},
+T3Engineering = {
+NewBuildRate = 80,
+NewHealth = 7000,
+NewRegenRate = 40,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="uel0001",
+Buffs = {
+},
+Weapon = {
+{
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+EnergyChargeForFirstShot = true,
+EnergyDrainPerSecond = 5000,
+EnergyRequired = 5000,
+},
+{
+},
+{
+},
+{
+DamageType = 'Deathnuke',
+NukeInnerRingDamage = 45000,
+NukeOuterRingDamage = 5000,
+},
+},
+Enhancements = {
+AdvancedEngineering = {
+NewBuildRate = 20,
+NewHealth = 3000,
+NewRegenRate = 20,
+},
+HeavyAntiMatterCannon = {
+BuildCostEnergy = 324000,
+BuildCostMass = 5300,
+BuildTime = 3800,
+NewMaxRadius = 8,
+ZephyrDamageMod = 400,
+},
+T3Engineering = {
+NewBuildRate = 80,
+NewHealth = 6000,
+NewRegenRate = 40,
+},
+TacticalMissile = {
+BuildCostMass = 2000,
+BuildTime = 2000,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xsl0001",
+Buffs = {
+},
+Weapon = {
+{
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+EnergyChargeForFirstShot = true,
+EnergyDrainPerSecond = 5000,
+EnergyRequired = 5000,
+},
+{
+DamageType = 'Deathnuke',
+NukeInnerRingDamage = 45000,
+NukeOuterRingDamage = 5000,
+},
+{
+},
+},
+Enhancements = {
+AdvancedEngineering = {
+NewBuildRate = 20,
+NewRegenRate = 20,
+},
+AdvancedRegenAura = {
+BuildCostEnergy = 62500,
+BuildCostMass = 3000,
+BuildTime = 2500,
+RegenCeiling = nil,
+MaxHealthFactor = 1.1,
+RegenPerSecond = 0.01111111111,
+},
+BlastAttack = {
+NewDamageRadius = 1,
+ShowBones = {
+'Right_Upgrade',
+},
+Slot = 'RCH',
+UpgradeEffectBones = {
+'Right_Upgrade',
+'Right_Turret_Muzzle',
+},
+},
+BlastAttackRemove = {
+HideBones = {
+'Right_Upgrade',
+},
+Slot = 'RCH',
+},
+Missile = {
+BuildCostMass = 2000,
+BuildTime = 2000,
+},
+RateOfFire = {
+NewMaxRadius = 8,
+NewRateOfFire = 1,
+ShowBones = {
+'Left_Upgrade',
+},
+Slot = 'LCH',
+UpgradeEffectBones = {
+'Left_Upgrade',
+'Left_Upgrade_Muzzle',
+},
+},
+RateOfFireRemove = {
+HideBones = {
+'Left_Upgrade',
+},
+Slot = 'LCH',
+},
+T3Engineering = {
+NewBuildRate = 80,
+NewHealth = 4000,
+NewRegenRate = 40,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="ual0301",
+Economy = {
+BuildTime = 12000,
+SacrificeEnergyMult = 1,
+SacrificeMassMult = 1,
+},
+Defense = {
+ArmorType = 'Subcommander',
+},
+Buffs = {
+},
+Weapon = {
+{
+Damage = 400,
+DamageType = 'SubCommander',
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+},
+},
+Enhancements = {
+EngineeringFocusingModule = {
+NewBuildRate = 30,
+},
+StabilitySuppressant = {
+NewDamageRadiusMod = 2,
+},
+SystemIntegrityCompensator = {
+NewRegenRate = 300,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="url0301",
+Economy = {
+BuildTime = 12000,
+},
+Defense = {
+ArmorType = 'Subcommander',
+},
+Buffs = {
+},
+Weapon = {
+{
+Damage = 375,
+DamageType = 'SubCommander',
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+Damage = 400,
+DamageType = 'SubCommander',
+Buffs = {
+{
+Add = {
+OnImpact = true,
+},
+AppliedToTarget = true,
+BuffType = 'STUN',
+Duration = 1,
+Radius = 3,
+TargetAllow = 'MOBILE',
+TargetDisallow = 'EXPERIMENTAL,COMMAND',
+},
+},
+FiringTolerance = 180,
+CannotAttackGround = false,
+},
+{
+},
+},
+Enhancements = {
+FocusConvertor = {
+NewDamageMod = 500,
+},
+Switchback = {
+NewBuildRate = 30,
+},
+CloakingGenerator = {
+BuildCostMass = 12000,
+NewHealth = 45000,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="uel0301",
+Economy = {
+BuildTime = 12000,
+},
+Defense = {
+ArmorType = 'Subcommander',
+},
+Buffs = {
+},
+Weapon = {
+{
+Damage = 400,
+DamageType = 'SubCommander',
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+},
+},
+Enhancements = {
+AdvancedCoolingUpgrade = {
+NewRateOfFire = 1.5,
+},
+HighExplosiveOrdnance = {
+NewDamageRadius = 1.5,
+},
+SensorRangeEnhancer = {
+NewOmniRadius = 56,
+NewVisionRadius = 14,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xsl0301",
+Economy = {
+BuildTime = 12000,
+},
+Defense = {
+ArmorType = 'Subcommander',
+},
+Buffs = {
+},
+Weapon = {
+{
+Damage = 435,
+DamageType = 'SubCommander',
+DamageRadius = 1.0,
+DamageFriendly = false,
+},
+{
+EnergyChargeForFirstShot = true,
+EnergyDrainPerSecond = 5000,
+EnergyRequired = 5000,
+},
+{
+},
+{
+},
+},
+Enhancements = {
+EngineeringThroughput = {
+NewBuildRate = 30,
+},
+EnhancedSensors = {
+NewOmniRadius = 46,
+NewVisionRadius = 14,
+},
+DamageStabilization = {
+NewHealth = 45000,
+BuildCostEnergy = 175000,
+BuildCostMass = 4750,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xeb2306",
+Weapon = {
+{
+DamageFriendly = false,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xaa0305",
+Air = {
+MaxAirspeed = 8,
+},
+Economy = {
+BuildCostEnergy = 60000,
+},
+Defense = {
+Health = 6000,
+MaxHealth = 6000,
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="ual0309",
+Economy = {
+BuildRate = 20,
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xsl0309",
+Economy = {
+BuildRate = 20,
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="daa0206",
+Physics = {
+FuelUseTime = 110,
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xrl0302",
+Defense = {
+Health = 300,
+MaxHealth = 300,
+},
+Weapon = {
+{
+Damage = 4500,
+DamageRadius = 3,
+FiringTolerance = 100,
+MaxRadius = 3,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="uab0304",
+Economy = {
+BuildableCategory = {
+'BUILTBYTIER3FACTORY AEON MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY AEON STRUCTURE AIR',
+'BUILTBYTIER3FACTORY AEON MOBILE AIR',
+'TRANSPORTBUILTBYTIER3FACTORY AEON MOBILE AIR',
+'BUILTBYTIER3FACTORY AEON MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY AEON STRUCTURE LAND',
+'BUILTBYTIER3FACTORY AEON MOBILE LAND',
+'BUILTBYQUANTUMGATE AEON',
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="urb0304",
+Economy = {
+BuildableCategory = {
+'BUILTBYTIER3FACTORY CYBRAN MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY CYBRAN STRUCTURE AIR',
+'BUILTBYTIER3FACTORY CYBRAN MOBILE AIR',
+'TRANSPORTBUILTBYTIER3FACTORY CYBRAN MOBILE AIR',
+'BUILTBYTIER3FACTORY CYBRAN MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY CYBRAN STRUCTURE LAND',
+'BUILTBYTIER3FACTORY CYBRAN MOBILE LAND',
+'BUILTBYQUANTUMGATE CYBRAN',
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="ueb0304",
+Economy = {
+BuildableCategory = {
+'BUILTBYTIER3FACTORY UEF MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY UEF STRUCTURE AIR',
+'BUILTBYTIER3FACTORY UEF MOBILE AIR',
+'TRANSPORTBUILTBYTIER3FACTORY UEF MOBILE AIR',
+'BUILTBYTIER3FACTORY UEF MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY UEF STRUCTURE LAND',
+'BUILTBYTIER3FACTORY UEF MOBILE LAND',
+'BUILTBYQUANTUMGATE UEF',
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xsb0304",
+Economy = {
+BuildableCategory = {
+'BUILTBYTIER3FACTORY SERAPHIM MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY SERAPHIM STRUCTURE AIR',
+'BUILTBYTIER3FACTORY SERAPHIM MOBILE AIR',
+'TRANSPORTBUILTBYTIER3FACTORY SERAPHIM MOBILE AIR',
+'BUILTBYTIER3FACTORY SERAPHIM MOBILE CONSTRUCTION',
+'BUILTBYTIER3FACTORY SERAPHIM STRUCTURE LAND',
+'BUILTBYTIER3FACTORY SERAPHIM MOBILE LAND',
+'BUILTBYQUANTUMGATE SERAPHIM',
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="urb2301",
+Weapon = {
+{
+Damage = 11,
+},
+},
+Merge=true,
+}
+UnitBlueprint {
+BlueprintId="xsb2301",
+Weapon = {
+{
+Damage = 220,
+},
+},
+Merge=true,
+}

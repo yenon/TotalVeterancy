@@ -1,0 +1,19 @@
+UnitBlueprint {
+BlueprintId="xrb3301",Merge=true,
+	Buffs = {
+Any	=	{
+	 XRB3301VISION = {
+			Stacks = 'ALWAYS',
+			Duration = -1,
+			Affects = {
+			VisionRadius = {
+			Mult = 1.01,
+			},
+			},
+		},
+},
+},
+Economy = {
+BuildXPLevelpSecond = 1/3000
+},
+}
