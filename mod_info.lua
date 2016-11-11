@@ -1,13 +1,12 @@
 
-name = "TVg V4.86 - TotalVeterancy" 
-uid = "9f775cf2-9b8b-11dc-8314-0800200c9a8D" 
+name = "TVg V4.86 - TotalVeterancy Deloaded" 
+uid = "1a6b0dac-73c9-4320-8527-4e20a856bb38" 
 version = 1 
 copyright = "" 
-description = "Veterancy that Works! (S)ACU's serve as Heroes and Veterans can be directly built. Including exhaustive UI. NEW: More abilities
+description = "Veterancy that currently doesn't work! (S)ACU's serve as Heroes and Veterans can be directly built. Including exhaustive UI. NEW: More abilities
 for (S)ACU's!" 
 author = "Eni, maintained by Ghaleon" 
-url = "http://forums.gaspowered.com/viewtopic.php?
-t=40012" 
+url = "http://forums.gaspowered.com/viewtopic.php?t=40012"
 selectable = true 
 enabled = true 
 exclusive = false 
